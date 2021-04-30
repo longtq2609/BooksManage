@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.bookmanagement">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme_1">
+        <activity android:name=".StatisticalActivity"
+            android:theme="@style/AppTheme"></activity>
+        <activity android:name=".BestsellingBooksActivity"
+            android:theme="@style/AppTheme"/>
+        <activity
+            android:name=".ListDetalBillActivity"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".datai.DetailBillActivity"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".datai.DetailBookActivity"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".datai.DetailCategoryActivity"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".datai.DetailUserActivity"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".BillActivity"
+            android:label="@string/app_name_8"
+            android:theme="@style/AppTheme" />
+        <activity android:name=".ChangePasswordActivity" />
+        <activity
+            android:name=".ListBillActivity"
+            android:label="@string/app_name_7"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".ListBookActivity"
+            android:label="@string/app_name_5"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".BookActivity"
+            android:label="@string/app_name_6"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".ListCategoryActivity"
+            android:label="@string/app_name_3"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".ListUserActivity"
+            android:label="@string/app_name_1"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".CategoryActivity"
+            android:label="@string/app_name_4"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".UserActivity"
+            android:label="@string/app_name_2"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".LoginActivity"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".MainInterfaceActivity"
+            android:theme="@style/AppTheme_1" />
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

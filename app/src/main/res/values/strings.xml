@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Quản Lý Thư Viện</string>
+    <string name="app_name_1">Danh Sách Người Dùng</string>
+    <string name="app_name_2">Người Dùng</string>
+    <string name="app_name_3">Danh Sách Thể Loại</string>
+    <string name="app_name_4">Thể Loại</string>
+    <string name="app_name_5">Sách Hiện Có</string>
+    <string name="app_name_6">Sách</string>
+    <string name="app_name_7">Danh Sách Hóa Đơn</string>
+    <string name="app_name_8">Thêm Hóa Đơn</string>
+</resources>
